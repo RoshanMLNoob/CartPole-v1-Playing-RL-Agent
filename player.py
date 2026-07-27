@@ -163,8 +163,8 @@ class RL_cartpole(object):
                 print("*******************************LOST********************************")
                 env.reset()
 
-f_new = r"C:\Users\rosha\OneDrive\Desktop\Python_ML\Machine_Learning_Practice_Projects\Game Bot\Data_New1.pkl"
-f_old = r"C:\Users\rosha\OneDrive\Desktop\Python_ML\Machine_Learning_Practice_Projects\Game Bot\Q_table.pkl"
+f_new = r"Data_New1.pkl"
+f_old = r"Q_table.pkl"
 
 
 train = (50000 , 500 , 49975 , 100)
@@ -184,7 +184,7 @@ if start is True:
     Model.save_Q(file=f_old)
 
 
-k = input()
+k = input("Click Enter to start a Video Recording , else click Ctrl+C to exit via KeyboardIntterupt: ")
 
 #Below this coded by AI, I needed to record a video demonstration and not wnating to learn a new
 #Library in the way
