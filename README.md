@@ -5,3 +5,5 @@ I hope you enjoy!
 Just run this and wait a few minuts for it to train, you can change some parameters in the tuple named "train" to make the process faster or slower,
 if you like you can change some things in this and help me out by sending a PR, I am new to ML Learning from MIT Open Learning Library 6.036 Course,
 so I am unaware of most stuff in ML and RL, I would really appriciate anyone Helping me out.
+
+If you want to you can use the alredy available Q_table.pkl file, it contained a trained RL Model on this exact enviornment.
