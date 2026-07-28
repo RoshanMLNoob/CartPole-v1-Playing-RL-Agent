@@ -262,8 +262,8 @@ class RL_cartpole(object):
                 env.reset()
 
 
-f_new = r"C:\Users\rosha\OneDrive\Desktop\Python_ML\Machine_Learning_Practice_Projects\Game Bot\Data_New1.pkl"
-f_old = r"C:\Users\rosha\OneDrive\Desktop\Python_ML\Machine_Learning_Practice_Projects\Game Bot\Q_table.pkl"
+f_new = r"Data_New1.pkl"
+f_old = r"Q_table.pkl"
 
 train = (100000 , 500 , 99985 , 100)
 test = (5 , 500 , 0 , 1)
